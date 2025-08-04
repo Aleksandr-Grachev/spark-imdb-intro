@@ -13,7 +13,7 @@ load_env() {
   fi
 }
 
-# Функция для проверки и запроса переменной среды
+# Функция для запроса переменной среды
 check_and_prompt_variable() {
   local var_name=$1
   local var_value=${!var_name}
